@@ -74,16 +74,14 @@ img {
 
 @media screen and (max-width: 420px) {
    
-    .container.grey{
-      width: 100%;
-    }
+
     .row{
       display: flex;
       flex-direction: column;
       width: 100vw;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 3em;
+      margin-top: 1em;
       margin-bottom: 2em;
       font-size: 1.5rem;
     }
@@ -91,7 +89,17 @@ img {
     #lezioni .row>.right{
       align-self: center;
       width: 80%;
+      margin-bottom: 1.5em;
     }
+    #lezioni .row .left h3,
+    #lezioni .row .right h3{
+      margin: 1rem 0em;
+    }
+    #lezioni .row h1{
+      margin-top: 0.5em;
+    }
+
+
     #lezioni .row .right img{
       width: 100%;
       height: 100%;
